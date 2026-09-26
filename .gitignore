@@ -1,0 +1,29 @@
+# Experimental scripts
+sft/test_*.py
+data/test_*.py
+generation/test_*.py
+pretraining/test_*.py
+tokenizer/test_*.py
+
+# Model checkpoints
+checkpoints/*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Local databases
+*.db
+
+# Coverage
+.coverage
+htmlcov/
