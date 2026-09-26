@@ -496,7 +496,6 @@ gpt_mini_pytorch/
 │
 ├── tokenizer/
 │   ├── __init__.py
-│   ├── tokenizer.py
 │   └── bpe.py
 │
 ├── model/
