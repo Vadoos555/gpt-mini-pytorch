@@ -7,16 +7,21 @@ The main goal of this project is not to build a competitive language model, but 
 **Tokenizer → Transformer → Pretraining → SFT → Evaluation → Chat**
 
 ---
-
 ## 🎯 Project Goal
 
-This project was created as a practical implementation of the ideas from:
+This project was created as a practical implementation of the core ideas behind modern GPT-style language models.
 
-> Sebastian Raschka — *Build a Large Language Model (From Scratch)*
+The main goal is to understand how a small language model works internally by implementing its key components from scratch with PyTorch, rather than relying on high-level NLP or Transformer libraries.
 
-The project focuses on understanding the internal mechanics of a GPT-style model through hands-on implementation rather than using high-level NLP libraries.
+The project covers the complete learning pipeline:
 
-The model was intentionally kept small so that the entire project can be trained and tested on a **CPU**.
+**Tokenization → Embeddings → Self-Attention → Transformer Blocks → GPT Model → Pretraining → Instruction Fine-Tuning → Generation → Evaluation → Chat**
+
+The model was intentionally kept small so that the entire pipeline can be trained, tested, and explored on a **CPU**.
+
+Beyond simply building a working model, the project is designed as a hands-on exploration of the ideas behind language models — from raw text and tokens to a model capable of generating and following instructions.
+
+The emphasis is on **understanding, experimentation, and implementation**, not on achieving state-of-the-art performance.
 
 ---
 
